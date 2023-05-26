@@ -1,47 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gabriel Opitz - HOME</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <header>
-        <img src="./images/logo1.png" alt="logo-header" class="logo-header">
-        <div>
-            <button>
-                Home
-            </button>
-            <button>
-                Biografia
-            </button>
-            <button>
-                Música
-            </button>
-            <button>
-                Novidades
-            </button>
-            <button>
-                Aulas
-            </button>
-            <button>
-                Contato
-            </button>
-            <button>
-                Metrônomo
-            </button>
-            <button>
-                Devaneios
-            </button>
-        </div>
-    </header>
-    <p>BEM-VINDO</p>
-    <section>
-
-    </section>
-    <footer>
-
-    </footer>
+    <div class="container">
+        <header class="header">
+            <img src="./images/logo1.png" alt="logo-header" class="logoHeader">
+            <div class="headerDiv">
+                <button class="navButton">
+                    Home
+                </button>
+                <button class="navButton">
+                    Biografia
+                </button>
+                <button class="navButton">
+                    Música
+                </button>
+                <button class="navButton">
+                    Novidades
+                </button>
+                <button class="navButton">
+                    Aulas
+                </button>
+                <button class="navButton">
+                    Contato
+                </button>
+                <button class="navButton">
+                    Metrônomo
+                </button>
+                <button class="navButton">
+                    Devaneios
+                </button>
+            </div>
+        </header>
+            
+        <section class="gridContainer">
+            <div class="mainContent">
+                <p class="sectionTitle" id="backToTop">BEM-VINDO AO MEU SITE</p>        
+                <div class="spotifyContent"></div>
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/6P27RUJhEq1u6oFpPaQZKb?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                <div class="textContent"></div>
+                    <p class="titleContent">Título</p>
+                    <p class="textDescription">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt nostrum autem deleniti molestiae voluptatum adipisci iure voluptatem dolorem pariatur hic?</p>
+                <div class="youTubeContent"></div>
+                <iframe width="680" height="380" src="https://www.youtube.com/embed/aYBVpI4s5-I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <div class="subscribe"></div>
+                <form action="#">
+                    <div class="formHeader">
+                        <div class="inputForm">
+                            <label for="firstName">Seu Nome</label>
+                            <input id="firstName" type="text" name="firstName" placeholder="digite seu primeiro nome..." required>
+                        </div>
+                    </div>
+                    <div class="subscribeBtn">
+                        <button class="button">Inscrever-se</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <footer class="footer">
+            <a href="#backToTop" class="footerAnchor">VOLTAR PARA O TOPO</a>
+        </footer>
+    </div>
+    
 </body>
 </html>
