@@ -147,6 +147,7 @@ h6 {
 h1 {
   --font-size: 2rem;
   --typography-spacing-vertical: 3rem;
+  color: black;
 }
 
 h2 {
@@ -204,7 +205,7 @@ kbd {
 
 [data-theme=light],
 :root:not([data-theme=dark]) {
-  --background-color: #fff;
+  --background-image: #fff;
   --color: hsl(205, 20%, 32%);
   --h1-color: hsl(205, 30%, 15%);
   --h2-color: #24333e;
@@ -214,8 +215,8 @@ kbd {
   --h6-color: #4d606d;
   --muted-color: hsl(205, 10%, 50%);
   --muted-border-color: hsl(205, 20%, 94%);
-  --primary: hsl(195, 85%, 41%);
-  --primary-hover: hsl(195, 90%, 32%);
+  --primary: #fb8c00;;
+  --primary-hover: #6b3b00;;
   --primary-focus: rgba(16, 149, 193, 0.125);
   --primary-inverse: #fff;
   --secondary: hsl(205, 15%, 41%);
@@ -320,8 +321,8 @@ kbd {
     --h6-color: #afbbc4;
     --muted-color: hsl(205, 10%, 50%);
     --muted-border-color: #1f2d38;
-    --primary: hsl(195, 85%, 41%);
-    --primary-hover: hsl(195, 80%, 50%);
+    --primary: #fb8c00;;
+    --primary-hover: #754102;;
     --primary-focus: rgba(16, 149, 193, 0.25);
     --primary-inverse: #fff;
     --secondary: hsl(205, 15%, 41%);
@@ -426,8 +427,8 @@ kbd {
   --h6-color: #afbbc4;
   --muted-color: hsl(205, 10%, 50%);
   --muted-border-color: #1f2d38;
-  --primary: hsl(195, 85%, 41%);
-  --primary-hover: hsl(195, 80%, 50%);
+  --primary: #fb8c00;;
+  --primary-hover: #a55b00;;
   --primary-focus: rgba(16, 149, 193, 0.25);
   --primary-inverse: #fff;
   --secondary: hsl(205, 15%, 41%);
