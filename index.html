@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./pico-1.5.10/css/pico.css" />
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/iconoir-icons/iconoir@main/css/iconoir.css">
-
+    <script src="./scrit.js"></script>
 </head>
 <body>
     <main class="container">
@@ -29,22 +29,16 @@
               <li><a href="#" role="button" class="navBtn">Metrônomo</a></li>
               <li><a href="#" role="button" class="navBtn">Devaneios</a></li>
             </ul>
-        </nav>
+          </nav>
+    </main>
+    
+    <main class="container">
           <div class="spotify-wrapper">
             <div class="spotifyContent"></div>
-            <iframe
-              style="border-radius: 12px"
-              src="https://open.spotify.com/embed/album/6P27RUJhEq1u6oFpPaQZKb?utm_source=generator&theme=0"
-              width="100%"
-              height="100"
-              frameborder="0"
-              allowfullscreen=""
-              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-              loading="lazy"
-            ></iframe>
-          </div>
-    </main>        
-    <main class="container">
+            <iframe style="border-radius:12px" 
+            src="https://open.spotify.com/embed/album/6P27RUJhEq1u6oFpPaQZKb?utm_source=generator&theme=0" width="50%" height="75" 
+            frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          </div>        
           <section >
               <h1 id="backToTop">BEM-VINDO AO MEU SITE</h1>        
           </section>  
@@ -64,22 +58,35 @@
             </hgroup>
             <div class="grid">
               <div>
-                <img src="./images/Theatro3.jpg" alt="SambaChoro" class="showImg">
+                <img src="./images/Theatro3.jpg" alt="SambaChoro" class="showImg" onclick="expandImage(this)">
+                  <div class="overlay" onclick="closeOverlay()">
+                    <img src="">
+                  </div>
                 <h5>Samba e Choro dedilhados pelas cordas de Gabriel Opitz (2023)</h5>
               </div>
               <div>
-                <img src="./images/Theatro2.jpg" alt="GabrielAmigos13" class="showImg">
+                <img src="./images/Theatro2.jpg" alt="GabrielAmigos13" class="showImg" onclick="expandImage(this)">
+                <div class="overlay" onclick="closeOverlay()">
+                  <img src="">
+                </div>>
                 <h5>Gabriel Opitz e Amigos - Theatro 13 de Maio/Sm (2021)</h5>
               </div>
               <div>
-                <img src="./images/LiveEncerramento.jpeg" alt="GabrieleAmigosDeCasa" class="showImg">
+                <img src="./images/LiveEncerramento.jpeg" alt="GabrieleAmigosDeCasa" class="showImg" onclick="expandImage(this)">
+                <div class="overlay" onclick="closeOverlay()">
+                  <img src="">
+                </div>>
                 <h5>Gabriel Opitz e Amigos: de casa (2020)</h5>
               </div>
               <div>
-                <img src="./images/Theatro1.jpg" alt="Fluidez" class="showImg">
+                <img src="./images/Theatro1.jpg" alt="Fluidez" class="showImg" onclick="expandImage(this)">
+                <div class="overlay" onclick="closeOverlay()">
+                  <img src="">
+                </div>>
                 <h5>Fluidez - show de lançamento do EP (2019)</h5>
               </div>
             </div>
+                
           </section>
           <section>
             <hgroup>
@@ -90,17 +97,17 @@
               <article>
                 <i class="iconoir-youtube icon-medium"></i>
                 <p>Aqui você encontrará vídeos de apresentações, gravações e aulas...</p>
-                <a role="button" href="https://www.youtube.com/channel/UC5M-p2tNtsp9l-IcMCVd4-A">Mais informações</a>
+                <a role="button" href="https://www.youtube.com/channel/UC5M-p2tNtsp9l-IcMCVd4-A" target="_blank">Mais informações</a>
               </article>
               <article>
                 <i class="iconoir-instagram"></i>
                 <p>No instagram eu posto imagens e vídeos da minha rotina diária de estudo, passeios e coisas bacanas...</p>
-                <a role="button" href="https://instagram.com/gabrielopitzmusica?igshid=ZDc4ODBmNjlmNQ==">Mais informações</a>
+                <a role="button" href="https://instagram.com/gabrielopitzmusica?igshid=ZDc4ODBmNjlmNQ==" target="_blank">Mais informações</a>
               </article>
               <article>
                 <i class="iconoir-linkedin"></i>
                 <p>Aqui você encontrará vídeos de apresentações, gravações e aulas...</p>
-                <a role="button" href="https://www.youtube.com/channel/UC5M-p2tNtsp9l-IcMCVd4-A">Mais informações</a>
+                <a role="button" href="https://www.youtube.com/channel/UC5M-p2tNtsp9l-IcMCVd4-A" target="_blank">Mais informações</a>
               </article>
 
             </div>
